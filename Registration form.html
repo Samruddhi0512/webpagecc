@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="st1.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        
+            <h1 class="main_heading">Registeration Form </h1>
+            <p>All the required are followed by *</p>
+            
+            <p> Full Name* : <input type="text" name="name" id="name"  required></p>
+            <p>Email* : <input type ="email" name="email" id="name" required > </p>
+            <p> Contact Number* : <input type="number" name="card_num" id="card_num" required></p>
+            <p> Whatsapp Number* : <input type="number" name="card_num" id="card_num" required></p>
+             <fieldset> 
+                <legend> Gender* </legend required>
+                    <p>
+                         <input type="radio" name="gender" id="gender"> Male
+    
+                        <input type="radio" name="gender" id="gender"> Female
+                        
+                    </p>
+             </fieldset> 
+             <fieldset> 
+                <legend> Age* </legend required>
+                    <p>
+                        <input type="radio" name="age" id="age">Greater than 18 and less than 23
+                        <input type="radio" name="age" id="age"> Grater than 23 and less than 30
+                        <input type="radio" name="age" id="age">Greater than 30 and less than 40
+                        <input type="radio" name="age" id="age">Greater than 40 and less than 50
+                        <input type="radio" name="age" id="age">Greater than 50
+                    </p>
+             </fieldset> 
+             <p> Pincode* : <input type="number" name="pincode" id="pincode" required >  </p>
+             <p> Organization* : <input type="text" name="org" id="org"  required></p>
+             <p> Designation* : <input type="designation" name="dig" id="dig"  required></p>
+             <p> Total Experience(years)* : <input type="number" name="exp" id="exp" required></p>
+             <p> Total Experience in AI, ML, DS(years)* : <input type="number" name="expd" id="expd" required></p>
+             <fieldset> 
+                <legend> From where did you hear about our event </legend >
+                    <p>
+                        <input type="checkbox" name="hea" id="hea">Email
+                        <input type="checkbox" name="hea" id="hea">Social Media
+                        <input type="checkbox" name="hea" id="hea">Word of mouth
+                        <input type="checkbox" name="hea" id="hea">Print Media
+                        <input type="checkbox" name="hea" id="hea">Phone Call
+                        <input type="checkbox" name="hea" id="hea">Radio Channel
+                        <input type="checkbox" name="hea" id="hea">TV Channels
+                        <input type="checkbox" name="hea" id="hea">Events
+                        
+                    </p>
+             </fieldset> 
+             <fieldset> 
+                <legend> Vaccination Status* </legend required>
+                    <p>
+                         <input type="radio" name="vacc" id="vacc"> Not Vaccinated
+    
+                        <input type="radio" name="vacc" id="vacc"> Partially Vaccinated
+                        <input type="radio" name="vacc" id="vacc"> Vaccinated
+                    </p>
+             </fieldset>
+             <p>
+                 <input type="submit" value="Submit" 
+            </p>
+        </form>
+    </div>
+</body>
+</html>
